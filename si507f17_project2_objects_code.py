@@ -73,8 +73,8 @@ print("\n***** PROBLEM 1 *****\n")
 ## For problem 1, you should define a class Media, representing ANY piece of media you can find on iTunes search. 
 
 
-## The Media class should accept one dictionary data structure representing a piece of media from iTunes as input to the constructor.
-## Its constructor should invoke a method to get and cache data, and instatiate at least the following instance variables:
+## The Media class constructor should accept one dictionary data structure representing a piece of media from iTunes as input to the constructor.
+## It should instatiate at least the following instance variables:
 ## - title
 ## - author
 ## - itunes_URL
