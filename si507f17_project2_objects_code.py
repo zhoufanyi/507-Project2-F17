@@ -12,7 +12,6 @@ import unittest
 ## (DO NOT change the name of this file! Make sure to re-save it with the name si507f17_project2_objects_code.py if you change the name. Otherwise, we will not be able to grade it!)
 
 
-### PART 1
 print("\n*** *** PROJECT 2 *** ***\n")
 
 ## Useful additional references for this part of the homework from outside class material:
@@ -67,7 +66,7 @@ def sample_get_cache_itunes_data(search_term,media_term="all"):
 		return CACHE_DICTION[unique_ident]
 
 
-## [PROBLEM 1]
+## [PROBLEM 1] [250 POINTS]
 print("\n***** PROBLEM 1 *****\n")
 
 
@@ -85,11 +84,11 @@ print("\n***** PROBLEM 1 *****\n")
 ## - a special string method, that returns a string of the form 'TITLE by AUTHOR'
 ## - a special representation method, which returns "ITUNES MEDIA: <itunes id>" with the iTunes id number for the piece of media (e.g. the track) only in place of "<itunes id>"
 ## - a special len method, which, for the Media class, returns 0 no matter what. (The length of an audiobook might mean something different from the length of a song, depending on how you want to define them!)
-## - a special contains method (for the in operator) which takes one additional input, as all contains methods must, and checks to see if the input to this method is inside the string representing the media's title
+## - a special contains method (for the in operator) which takes one additional input, as all contains methods must, which should always be a string, and checks to see if the string input to this contains method is INSIDE the string representing the title of this piece of media (the title instance variable)
 
 
 
-## [PROBLEM 2]
+## [PROBLEM 2] [400 POINTS]
 print("\n***** PROBLEM 2 *****\n")
 ## In 2 parts.
 
@@ -126,7 +125,7 @@ print("\n***** PROBLEM 2 *****\n")
 
 
 
-## [PROBLEM 3] 
+## [PROBLEM 3] [150 POINTS]
 print("\n***** PROBLEM 3 *****\n")
 
 ## In this problem, you'll write some code to use the definitions you've just written.
@@ -156,7 +155,7 @@ movie_samples = sample_get_cache_itunes_data("love","movie")["results"]
 
 
 
-## [PROBLEM 4]
+## [PROBLEM 4] [200 POINTS]
 print("\n***** PROBLEM 4 *****\n")
 
 ## Finally, write 3 CSV files:

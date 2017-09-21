@@ -31,6 +31,10 @@ class Problem1(unittest.TestCase):
 	def test_repr_method(self):
 		self.assertEqual(self.m2inst.__repr__(),"ITUNES MEDIA: 265250067")
 
+	def test_contains_method(self):
+		self.assertTrue("beatles" not in self.m1inst)
+		self.assertTrue("ouille" in self.m2inst)
+
 	def tearDown(self):
 		pass
 
@@ -55,6 +59,10 @@ class Problem2Song(unittest.TestCase):
 
 	def test_song_len(self):
 		self.assertEqual(len(self.song1),185)
+
+	def test_song_contains(self):
+		self.assertTrue("Sun" in self.song1)
+		self.assertTrue("Beat"not in self.song1)
 
 	def tearDown(self):
 		pass
@@ -82,6 +90,10 @@ class Problem2Movie(unittest.TestCase):
 
 	def test_movie_repr(self):
 		self.assertEqual(self.movie_sample.__repr__(),"ITUNES MEDIA: 265250067")
+
+	def test_movie_contains(self):
+		self.assertTrue("tatou" in self.movie_sample)
+		self.assertTrue("Pixar" not in self.movie_sample)
 
 	def tearDown(self):
 		pass
