@@ -26,10 +26,15 @@ As you make changes, you should make commits to your Git repository, and push th
 
 ## To submit
 
-Commit and push before the deadline (or once you have used any late days you choose to use):
+1. Commit and push before the deadline (or once you have used any late days you choose to use):
 * The final version of your code file
 * The same test file you had originally (don't make changes to it unless directed by an instructor)
 * All .CSV files you create as a result of running the project
+
+2. Submit **the full URL of your GitHub repository, the clone you make** to the Project 2 assignment on the SI 507 Canvas site. Submitting to the Canvas site before 11:59 PM will make your assignment on time and allow our grading script to work. 
+
+If you submit using (a) late day(s), you should do so by 11:59 PM on whatever day that is.
+
 
 ## FYI
 
