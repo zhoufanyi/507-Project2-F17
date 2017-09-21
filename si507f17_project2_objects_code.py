@@ -96,7 +96,7 @@ print("\n***** PROBLEM 2 *****\n")
 ## class Song
 ## class Movie
 
-## In the class definitions, you can assume a programmer would pass to each class's constructor only a dictionary that represented the correct media type (song, movie, audiobook/ebook).
+## In the class definitions, you can assume a programmer would pass to each class's constructor only a dictionary that represented the correct media type (song, movie).
 
 ## Below follows a description of how each of these should be different from the Media parent class.
 
@@ -130,7 +130,7 @@ print("\n***** PROBLEM 3 *****\n")
 
 ## In this problem, you'll write some code to use the definitions you've just written.
 
-## First, here we have provided some variables which hold data about media overall, songs, movies, and books. 
+## First, here we have provided some variables which hold data about media overall, songs, and movies.
 
 ## NOTE: (The first time you run this file, data will be cached, so the data saved in each variable will be the same each time you run the file, as long as you do not delete your cached data.)
 
@@ -147,8 +147,7 @@ movie_samples = sample_get_cache_itunes_data("love","movie")["results"]
 
 ## You should end up with: a list of Media objects saved in a variable media_list, 
 ## a list of Song objects saved in a variable song_list, 
-## a list of Movie objects saved in a variable movie_list, 
-## and a list of Book objects saved in a variable book_list.
+## a list of Movie objects saved in a variable movie_list.
 
 ## You may use any method of accumulation to make that happen.
 
